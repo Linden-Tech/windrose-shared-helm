@@ -114,11 +114,15 @@ the sync to finish, and press Play again.
   first and walks through four steps, then the game starts.
   **Leave that window open while you play.** It closes by itself after you quit.
 - When nobody is hosting, the window asks what you want to do:
-  - `H` to host the shared world
-  - `J` to Join / Play: join a friend's game or play your own world. The shared
-    world is left alone and your friends can still host it while you play.
+  - `H` to host the shared world. **Press H even if you are playing it alone.**
+    Playing the shared world solo is the same save as hosting it, and H is what
+    uploads your progress for everyone else.
+  - `J` to Join / Play: join a friend's game or play a different world of your
+    own. The shared world is left alone, nothing is uploaded, and your friends
+    can still host it while you play.
 - If the window says **someone else has the helm**, they are hosting. Press:
-  - `J` to Join / Play: join their game from the multiplayer menu, or play your own world
+  - `J` to Join / Play: join their game from the multiplayer menu, or play a
+    different world of your own
   - `H` to host anyway (only if you are all sure nobody is hosting)
 - To quit at either prompt, just close the window. Nothing has been touched yet.
 - After the host quits, wait for your sync service to finish uploading before

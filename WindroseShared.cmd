@@ -128,8 +128,8 @@ if exist "%LOCKFILE%" (
   echo  They are hosting right now, or their game closed without
   echo  handing the helm back.
   echo.
-  echo    J = Join / Play. Join their game, or play your own world.
-  echo        The shared world is left alone.
+  echo    J = Join / Play. Join their game, or play a DIFFERENT world of your own.
+  echo        The shared world is left alone and nothing is uploaded.
   echo    H = Host the shared world anyway. Only if you are all SURE nobody is hosting.
   echo.
   echo    Or just close this window to quit.
@@ -144,9 +144,10 @@ if exist "%LOCKFILE%" (
 ) else (
   echo  Nobody has the helm right now.
   echo.
-  echo    H = Host the shared world.
-  echo    J = Join / Play. Join a friend's game, or play your own world.
-  echo        The shared world is left alone.
+  echo    H = Host the shared world. Also press H to play the shared world
+  echo        by yourself, so your progress is saved for everyone.
+  echo    J = Join / Play. Join a friend's game, or play a DIFFERENT world of
+  echo        your own. The shared world is left alone and nothing is uploaded.
   echo.
   echo    Or just close this window to quit.
   echo.
