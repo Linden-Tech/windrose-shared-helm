@@ -108,12 +108,17 @@ the sync to finish, and press Play again.
 
 ## Playing
 
-- Press Play in Steam like normal. A black window appears first, then the game.
-  **Leave the black window open while you play.** It closes by itself after you quit.
-- If the black window says the world is **LOCKED** by someone else, they are hosting. Press:
-  - `J` to join their game (then use the game's multiplayer menu)
+- Press Play in Steam like normal. A black "Windrose Shared Helm" window appears
+  first and walks through four steps, then the game starts.
+  **Leave that window open while you play.** It closes by itself after you quit.
+- When nobody is hosting, the window asks what you want to do:
+  - `H` to host the shared world
+  - `J` to Join / Play: join a friend's game or play your own world. The shared
+    world is left alone and your friends can still host it while you play.
+- If the window says **someone else has the helm**, they are hosting. Press:
+  - `J` to Join / Play: join their game from the multiplayer menu, or play your own world
   - `H` to host anyway (only if you are all sure nobody is hosting)
-  - `Q` to quit
+- To quit at either prompt, just close the window. Nothing has been touched yet.
 - After the host quits, wait for your sync service to finish uploading before
   the next person hosts. OneDrive shows a green check mark, Dropbox and Google
   Drive show a similar "up to date" state.
