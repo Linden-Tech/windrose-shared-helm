@@ -1,6 +1,6 @@
 # WindroseShared
 
-Version 0.0.1
+Version 0.0.1. Windows only.
 
 Share one Windrose world between friends so **anyone in the group can host it**.
 
@@ -10,6 +10,8 @@ a cloud-synced folder (OneDrive, Dropbox, Google Drive, anything that syncs a
 folder), and whoever hosts gets the latest copy before the game starts and
 uploads it when they quit. Everyone else just joins the host like normal.
 
+- Windows only. It is a plain Windows batch script and needs Windrose installed
+  through Steam on Windows. It does not run on Steam Deck, Linux, or Mac.
 - Works with any number of players. The only limit is whatever the game allows.
 - Your own characters and your own other worlds are never touched.
 - One player does a one-time step to choose the world. Nobody else ever has to.
