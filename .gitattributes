@@ -1,0 +1,7 @@
+* text=auto eol=lf
+# cmd.exe can skip GOTO/CALL labels in LF-only batch files, so keep these CRLF
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.zip binary
+*.png binary
+*.jpg binary
